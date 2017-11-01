@@ -1,1 +1,9 @@
-/*fdsafds*/
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.posicionamento-itens-cabecalho li {
+
+    display: inline-block;
+}
