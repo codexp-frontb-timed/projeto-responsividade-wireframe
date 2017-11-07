@@ -24,3 +24,6 @@
     </ul>
 </body>
 */
+.posicionamento-itens-cabecalho li {
+    display: inline-block;
+}
