@@ -1,29 +1,53 @@
+/* -------- NAVEGACAO --------  */
 .navegacao {
-
+    text-align: justify;
+    text-decoration: none;
+    margin: 2em 1em 0 1em;
 }
-.navegacao__hamburger {
-    width: 30px;
+    .navegacao:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+    }
+       .navegacao__hamburger,
+       .navegacao__logo,
+       .navegacao__carrinho {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .navegacao__hamburger {
+            width: 25px;
+            display: inline-block;
+        }
+        
+            .navegacao__hamburger__line {
+                height: 4px;
+                background-color: #c8c8c8;
+                margin: 5px 0;
+            } 
+
+/* -------- FOOTER --------  */
+.links {
+    background-color: #444;
+    display: inline-block;
+    padding-bottom: 1em;
+}
+
+.links div {
+    width: 40%;
     display: inline-block;
 }
-  
-    .navegacao__hamburger__line {
-        height: 4px;
-        background-color: #c8c8c8;
-        margin: 5px 0;
-    } 
-
-
-
-/* 
-
-<body>
-    <ul class="example">
-        <li class="example-item example-item_first">Primeiro</li>
-        <li class="example-item example-item_second">Segundo</li>
-        <li class="example-item example-item_third">Terceiro</li>
-    </ul>
-</body>
-*/
-.posicionamento-itens-cabecalho li {
-    display: inline-block;
+.links div:nth-child(odd) {
+    padding-left: 3em;
 }
+.links__titulo {
+    color: #eee;
+}
+.links__conteudo {
+    list-style-type: none;
+    color: #999;
+    margin-left: -30px;
+}
+
+
