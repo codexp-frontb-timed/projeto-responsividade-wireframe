@@ -1,9 +1,26 @@
-body, html {
-    width: 100%;
-    height: 100%;
+.navegacao {
+
 }
-
-.posicionamento-itens-cabecalho li {
-
+.navegacao__hamburger {
+    width: 30px;
     display: inline-block;
 }
+  
+    .navegacao__hamburger__line {
+        height: 4px;
+        background-color: #c8c8c8;
+        margin: 5px 0;
+    } 
+
+
+
+/* 
+
+<body>
+    <ul class="example">
+        <li class="example-item example-item_first">Primeiro</li>
+        <li class="example-item example-item_second">Segundo</li>
+        <li class="example-item example-item_third">Terceiro</li>
+    </ul>
+</body>
+*/
